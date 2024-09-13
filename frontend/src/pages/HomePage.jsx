@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import BookList from "../components/BookList";
+import Hero from "../components/Hero";
 
 const HomePage = () => {
     const [books, setBooks] = useState([]);
@@ -15,9 +16,12 @@ const HomePage = () => {
     }, []);
 
     return (
-        <div className="container">
-            <h1>Welcome to Book Chautari</h1>
-            <BookList books={books} />
+        <div className="home-page">
+            <Hero />
+
+            <div className="container">
+                <BookList books={books} />
+            </div>
         </div>
     );
 };
