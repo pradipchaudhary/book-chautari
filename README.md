@@ -1,4 +1,4 @@
-# Book Chautari 📚🇳🇵
+# [Book Chautari](#book-chautari)
 
 Welcome to **Book Chautari**, an online interactive book platform from Nepal! Our mission is to create a dynamic space where book enthusiasts, writers, and learners can come together to discover, share, and engage with books in a collaborative environment.
 
