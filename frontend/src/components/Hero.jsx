@@ -6,6 +6,9 @@ const Hero = () => {
                     <div className="hero-info">
                         <h1>Hero Section </h1>
                     </div>
+                    <div className="hero-info-image">
+                        
+                    </div>
                 </div>
             </div>
         </section>
