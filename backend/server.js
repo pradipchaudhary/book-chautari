@@ -16,6 +16,10 @@ app.use(cors());
 // Databse connection
 connectDB();
 
+app.get("/", (req, res) => {
+    res.send("Home route...");
+});
+
 // Routers
 app.use("/api/books", bookRoutes);
 
