@@ -4,6 +4,7 @@ import cors from "cors";
 import { PORT, HOST } from "./config/config.js";
 import connectDB from "./config/db.js";
 import bookRoutes from "./routes/bookRoutes.js";
+import userRoutes from "./routes/userRoutes.js";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 dotenv.config();
 
@@ -21,6 +22,7 @@ app.get("/", (req, res) => {
 });
 
 // Routers
+app.use("/api/user", userRoutes);
 app.use("/api/books", bookRoutes);
 
 app.use(notFound);
