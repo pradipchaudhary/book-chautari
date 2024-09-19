@@ -5,7 +5,8 @@ import jwt from "jsonwebtoken";
 // @route   GET /api/user
 // @access  Public
 
-const JWT_SECRET = "Pradip";
+// JWT secret from environment variable
+const JWT_SECRET = process.env.JWT_SECRET || "your_jwt_secret";
 
 export const createUser = async (req, res) => {
     const { name, email, password, role } = req.body;
@@ -64,3 +65,7 @@ export const loginUser = async (req, res) => {
         res.status(500).json({ message: "Server error", error: err.message });
     }
 };
+
+// @desc    Get user profile
+// @route   GET /api/users/profile/:id
+// @access  Public
