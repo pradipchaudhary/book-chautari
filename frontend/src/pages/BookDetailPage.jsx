@@ -9,7 +9,7 @@ const BookDetailPage = () => {
     useEffect(() => {
         const fetchBook = async () => {
             const { data } = await axios.get(
-                `http://localhost:3000/api/books/${id}`
+                `http://localhost:8000/api/books/${id}`
             );
             setBook(data);
         };

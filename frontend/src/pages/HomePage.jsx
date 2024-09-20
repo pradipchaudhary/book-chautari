@@ -8,7 +8,7 @@ const HomePage = () => {
 
     useEffect(() => {
         const fetchBooks = async () => {
-            const { data } = await axios.get("http://localhost:3000/api/books");
+            const { data } = await axios.get("http://localhost:8000/api/books");
             console.log(data);
             setBooks(data);
         };
