@@ -152,4 +152,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 👨‍💻 **Developed by Pradip Chaudhary**
 
-Connect with me on [LinkedIn](https://www.linkedin.com/) | Follow me on [GitHub](https://github.com/pradipchaudhary)
+Connect with me on [LinkedIn](https://www.linkedin.com/pradipchaudhary) | Follow me on [GitHub](https://github.com/pradipchaudhary)
