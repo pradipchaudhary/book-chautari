@@ -26,7 +26,17 @@ export const getBookById = asyncHandler(async (req, res) => {
 // @route   POST /api/books
 // @access  Public
 export const createBook = async (req, res) => {
-    const { title, author, description, price, category, stock } = req.body;
+    const {
+        title,
+        author,
+        description,
+        price,
+        type,
+        category,
+        coverImage,
+        digitalFile,
+        stock,
+    } = req.body;
 
     try {
         const newBook = new Book({
@@ -34,7 +44,10 @@ export const createBook = async (req, res) => {
             author,
             description,
             price,
+            type,
             category,
+            coverImage,
+            digitalFile,
             stock,
         });
 
