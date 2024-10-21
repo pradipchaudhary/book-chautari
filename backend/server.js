@@ -14,6 +14,9 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+// Static folder to serve public files
+app.use(express.static("public"));
+
 // Databse connection
 connectDB();
 
