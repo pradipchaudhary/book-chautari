@@ -5,67 +5,110 @@
 [![GitHub stars](https://img.shields.io/github/stars/pradipchaudhary/book-chautari)](https://github.com/pradipchaudhary/book-chautari/stargazers)
 [![GitHub license](https://img.shields.io/github/license/pradipchaudhary/book-chautari)](https://github.com/pradipchaudhary/book-chautari/blob/main/LICENSE)
 
-Welcome to **Book Chautari**, an online interactive book platform from Nepal, designed to bring readers and authors together! Discover, explore, and share books in a collaborative and interactive space built to celebrate the love of literature.
+**Book Chautari** is an interactive online book platform built with **Next.js** to serve readers and book lovers in Nepal. The platform provides a digital space for book enthusiasts to discover, read, and discuss books, fostering a reading culture within the Nepalese community. This project aims to make literature more accessible and enjoyable while supporting local authors and publishers.
 
-### 🚀 **Live Demo**: [Book Chautari](#) _(Link coming soon!)_
+## Table of Contents
 
----
-
-## 🌟 **Key Features**
-
--   **📚 Explore Books**: Browse a wide selection of books across genres.
--   **💬 User Reviews & Ratings**: Review and rate books to help others find great reads.
--   **👥 Community Interaction**: Join discussions, share thoughts, and connect with other readers.
--   **📊 Book Statistics**: View book popularity, ratings, and community engagement.
--   **🖋️ Author Dashboard**: Manage your listings, view feedback, and interact with readers.
-
----
-
-## 🛠️ **Tech Stack**
-
--   **Database**: [MongoDB](https://www.mongodb.com/)
--   **Authentication**: [JWT (JSON Web Tokens)](https://jwt.io/)
--   **Version Control**: [Git](https://git-scm.com/), [GitHub](https://github.com/)
--   **Deployment**: [Vercel](https://vercel.com/) / [Heroku](https://www.heroku.com/)
+-   [Features](#features)
+-   [Demo](#demo)
+-   [Installation](#installation)
+-   [Usage](#usage)
+-   [Tech Stack](#tech-stack)
+-   [Project Structure](#project-structure)
+-   [Contributing](#contributing)
+-   [License](#license)
+-   [Contact](#contact)
 
 ---
 
-## ⚙️ **Installation and Setup**
+## Features
 
-Follow the steps below to get the project up and running locally.
+-   📖 **Discover Books**: Find books across various genres and authors.
+-   📝 **User Reviews and Ratings**: Share thoughts and rate books.
+-   👥 **Community Interaction**: Engage in discussions and connect with other readers.
+-   🔍 **Search Functionality**: Quickly locate books, authors, or topics.
+-   🌐 **Local Support**: Highlights local authors and publishers from Nepal.
 
-## 🚀 **API Endpoints**
+## Demo
 
-Here's a summary of the API endpoints used in the backend:
+Check out a live demo of Book Chautari [here](#).
 
-| Method | Endpoint         | Description                    |
-| ------ | ---------------- | ------------------------------ |
-| GET    | `/api/books`     | Get all books                  |
-| POST   | `/api/books`     | Add a new book                 |
-| GET    | `/api/books/:id` | Get details of a specific book |
-| PUT    | `/api/books/:id` | Update book details            |
-| DELETE | `/api/books/:id` | Delete a book                  |
+> **Note**: This link is for demonstration purposes and may require updates to the project.
 
----
+## Installation
 
-## 🤝 **Contributing**
+1. **Clone the repository**:
 
-We'd love for you to contribute to **Book Chautari** and help make it even better! Here’s how you can contribute:
+    ```bash
+    git clone https://github.com/pradipchaudhary/book-chautari.git
+    cd book-chautari
+    ```
+
+2. **Install dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+3. **Set up environment variables**:
+
+    - Create a `.env.local` file in the root directory.
+    - Add your database and other configurations as shown in `.env.example`.
+
+4. **Start the development server**:
+    ```bash
+    npm run dev
+    ```
+
+The server will start on `http://localhost:3000`.
+
+## Usage
+
+Once the server is running, you can explore Book Chautari's features by visiting `http://localhost:3000`. Sign up to enjoy the full functionality, including adding reviews, connecting with other readers, and accessing a personalized library.
+
+## Tech Stack
+
+-   **Frontend**: Next.js, React, TypeScript
+-   **Backend**: Next.js API Routes
+-   **Database**: MongoDB
+-   **Styling**: Tailwind CSS
+-   **APIs**: RESTful APIs
+
+## Project Structure
+
+```plaintext
+book-chautari/
+├── public/                 # Public assets
+├── src/
+│   ├── components/         # Reusable components
+│   ├── pages/              # Next.js pages (routes)
+│   ├── api/                # API routes for backend logic
+│   ├── styles/             # Tailwind and custom CSS
+│   └── utils/              # Utility functions
+├── .env.example            # Environment variable example
+├── README.md               # Project documentation
+└── package.json            # Project dependencies and scripts
+```
+
+## Contributing
+
+Contributions are welcome! To contribute:
 
 1. Fork the repository.
-2. Create a feature branch: `git checkout -b feature-branch-name`.
-3. Commit your changes: `git commit -m "Add some feature"`.
-4. Push to the branch: `git push origin feature-branch-name`.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes and commit (`git commit -m 'Add your feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request.
 
----
+Please ensure your code follows the project's coding standards and includes appropriate documentation.
 
-## 📜 **License**
+## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
----
+## Contact
 
-### 👨‍💻 **Developed by Pradip Chaudhary**
+For any questions or suggestions, please reach out:
 
-Connect with me on [LinkedIn](https://www.linkedin.com/pradipchaudhary) | Follow me on [GitHub](https://github.com/pradipchaudhary)
+-   **GitHub**: [@pradipchaudhary](https://github.com/pradipchaudhary)
+-   **Email**: your.email@example.com
