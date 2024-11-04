@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+    darkMode: "media", // Enables dark mode based on media query
     content: [
         "./pages/**/*.{js,ts,jsx,tsx,mdx}",
         "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,9 +9,9 @@ const config: Config = {
     ],
     theme: {
         extend: {
-            colors: {
-                background: "var(--background)",
-                foreground: "var(--foreground)",
+            backgroundImage: {
+                "custom-radial":
+                    "radial-gradient(ellipse 80% 80% at 50% -20%, rgba(120,119,198,0.3), rgba(255,255,255,0))",
             },
             maxWidth: {
                 custom: "80rem", // Custom max-width of 80rem (1280px)
