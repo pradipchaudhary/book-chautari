@@ -1,7 +1,15 @@
-const Footer = () => (
-    <footer className="py-6 text-white text-center">
-        <p>&copy; 2024 Book Chautari . All rights reserved.</p>
-    </footer>
-);
+const Footer = () => {
+    const currentYear = new Date().getFullYear();
+
+    return (
+        <footer className="w-screen  py-10 text-white">
+            <div className="container mx-auto text-center">
+                <p className="text-sm">
+                    &copy; {currentYear} Book Chautari. All rights reserved.
+                </p>
+            </div>
+        </footer>
+    );
+};
 
 export default Footer;
