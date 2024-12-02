@@ -4,7 +4,7 @@ Book Chautari is an online interactive book platform dedicated to enhancing the 
 
 ## 🚀 Features
 
--   **User Accounts:** Readers can create profiles, save favorite books, and interact with other readers.
+-   **User Accounts:** Readers can create profiles, save favourite books, and interact with other readers.
 -   **Book Reviews & Ratings:** Users can review and rate books, helping others make informed decisions.
 -   **Interactive Discussions:** Engage with other readers through comments and discussions on each book.
 -   **Search and Filter:** Find books by genre, author, rating, and more.
@@ -25,30 +25,6 @@ This project follows the MVC (Model-View-Controller) pattern:
 -   **Database:** MongoDB
 -   **Others:** REST API, JWT Authentication, Cloudinary (for image storage)
 
-## ⚙️ Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/pradipchaudhary/book-chautari.git
-    ```
-2. Navigate into the project directory:
-    ```bash
-    cd book-chautari
-    ```
-3. Install the dependencies:
-    ```bash
-    npm install
-    ```
-4. Create a `.env` file and configure the following environment variables:
-    ```plaintext
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret
-    CLOUDINARY_URL=your_cloudinary_url
-    ```
-5. Start the development server:
-    ```bash
-    npm run dev
-    ```
 
 ## 📖 Usage
 
@@ -56,36 +32,3 @@ This project follows the MVC (Model-View-Controller) pattern:
 2. Search for books by title, author, or genre.
 3. Add books to your favorite list to keep track of what you love.
 
-## 📝 Contributing
-
-We welcome contributions! To get started:
-
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature/YourFeature
-    ```
-3. Commit your changes:
-    ```bash
-    git commit -m "Add a new feature"
-    ```
-4. Push to your branch:
-    ```bash
-    git push origin feature/YourFeature
-    ```
-5. Open a pull request.
-
-## 🔒 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## 📫 Contact
-
-For questions or suggestions, feel free to reach out:
-
--   GitHub: [pradipchaudhary](https://github.com/pradipchaudhary)
--   Email: your_email@example.com
-
----
-
-Thank you for checking out Book Chautari! Happy reading! 📖
